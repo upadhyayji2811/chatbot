@@ -1,29 +1,26 @@
-## ShopyGlobe
-An ecommerce application where users can buy any product.!
+# AI Chatbot (Perplexity API + Node.js + React)
 
-## Project Overview:
-This project is a React-based Ecommerce Application that allows users to buy products from a collection of products easily. Users can browse the products, add the products to the cart and view details of the products.
+This project is a simple and lightweight AI chatbot built using:
 
-## Github repo:https://github.com/upadhyayji2811/ShopyGlobe.git
-## Deploy: https://shopy-globe-eight.vercel.app/
+- **Node.js + Express** (Backend)
+- **Perplexity AI API (Sonar Model)**
+- **React.js** (Frontend)
 
-## Installation
-To run this project locally, follow these steps:
+The chatbot takes user input, sends it to Perplexity's AI model via the backend,
+and returns a natural language response.
 
-## Clone the repository:
-git clone
+---
 
-## Navigate to the project folder:
-cd '.\Shopy_Globe'
+## 🚀 Features
 
-## Install dependencies:
-npm install
+- Chat with Perplexity AI using the **Sonar model**
+- Clean and simple REST API (`/chat`)
+- CORS enabled (works with any frontend)
+- JSON-based communication
+- Secure API key handling using `.env`
+- Fully working example for beginners
 
-## Start the development server:
-npm run dev
+---
 
-## Usage
-1.Open the app and browse the available products by search. 
-2.Use the "Add to Cart" button to add the product to the cart. 
-3.Click on the product image to go to the product details page. 
-4.In the cart page user can increase or decrease the quantity of items.
+
+
