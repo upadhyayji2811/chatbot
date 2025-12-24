@@ -153,8 +153,8 @@ export default function App() {
 
     try {
       const res = await axios.post(
-        // "https://chatbotbackend-658d.onrender.com/chat",
-        "http://localhost:5000/chat",
+        "https://chatbotbackend-658d.onrender.com/chat",
+        // "http://localhost:5000/chat",
         {
           message: input,
         }
